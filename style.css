@@ -1,5 +1,15 @@
 body {
     background-color: bisque;
-    color:brown;
+}
 
+h1 {
+    color:brown;
+}
+
+p {
+    color:black;
+}
+
+.footer {
+    text-align: right;
 }
