@@ -1,15 +1,47 @@
+/* .quicksand-<body> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+
 body {
-    background-color: bisque;
+    background-color: #e600e6;
+    color: #4dff4d;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
 }
 
-h1 {
-    color:brown;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
 }
 
 p {
-    color:black;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+}
+
+.linkButton {
+    background-color:#ff1a1a;
+    color:#ffffff;
+    border-color:#ff1a1a;
+    padding: 20px;
+    height:100%;
+    width:50%;
+}
+
+.linkButton:hover {
+    background-color:#e60000;
+    color:#ffffff;
+    border-color:#e60000;
+    text-decoration:none;
 }
 
 .footer {
-    text-align: right;
+    background-color:#4dff4d;
+    color:#e600e6;
+    text-align:center;
 }
