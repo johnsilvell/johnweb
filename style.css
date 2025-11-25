@@ -31,6 +31,7 @@ p {
     padding: 20px;
     height:100%;
     width:50%;
+    border-radius: 30px;
 }
 
 .linkButton:hover {
@@ -40,8 +41,15 @@ p {
     text-decoration:none;
 }
 
+.bonnier {
+    background-color:black;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+}
+
 .footer {
     background-color:#4dff4d;
     color:#e600e6;
-    text-align:center;
+    text-align:right;
 }
